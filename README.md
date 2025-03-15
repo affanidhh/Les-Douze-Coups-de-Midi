@@ -1,56 +1,94 @@
-# Les Douze Coups de Midi
+# 🎯 Les Douze Coups de Midi  
 
-"Les Douze Coups de Midi" est une application de jeu inspirée de l'émission de télévision française du même nom. Ce jeu propose des questions de culture générale et permet aux joueurs de s'affronter pour devenir le Maître de Midi.
+```
 
-## Règles du jeu
+      *     *  ()   *    *
+*        * /\         *   
+      *   /i\\    *  * 
+    *     o/\\  *      * 
+ *       ///\i\    *   
+     *   /*/o\\  *    *
+   *    /i//\*\      *   
+        /o/*  \i\   *    
+  *    //i//o\\     *  
+      /*////\\i\*        
+ *    //o//i\*\\   *   
+   * /i///*/\\\o\    
+  *    *   ||     *  
 
-### Phases de jeu
+```
 
-1. **Coup d'Envoi**
-   - Chaque joueur répond à une question de difficulté "facile".
-   - Les scores sont mis à jour selon les réponses correctes.
+> 🏆 **Un jeu inspiré de l'émission télévisée française. Testez votre culture générale et devenez le Maître de Midi !**  
 
-2. **Coup par Coup**
-   - Chaque joueur répond à une question de difficulté "moyenne".
-   - Les scores sont mis à jour selon les réponses correctes.
+![GitHub repo size](https://img.shields.io/github/repo-size/user/repo?style=flat-square)  
+![GitHub stars](https://img.shields.io/github/stars/user/repo?style=social)  
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)  
 
-3. **Coup Fatal**
-   - Chaque joueur répond à une question de difficulté "difficile".
-   - Les scores sont mis à jour selon les réponses correctes.
+---
 
-### Duel Final
+## 📜 Règles du jeu  
 
-- Si plusieurs joueurs restent après les trois phases, les deux meilleurs s'affrontent dans un duel final.
-- Les questions de difficulté "difficile" sont posées alternativement aux deux joueurs.
-- Le joueur avec le score le plus élevé remporte le duel. En cas d'égalité, le gagnant est choisi aléatoirement.
+Le jeu est divisé en plusieurs **phases**, où les joueurs doivent répondre à des questions de **culture générale** pour tenter d’atteindre la **finale**.  
 
-### Étoile Mystérieuse
+| Phase          | Type de questions | Objectif |
+|---------------|------------------|----------|
+| 🟢 **Coup d'Envoi**  | Facile ✅ | Premier tour d’échauffement |
+| 🟡 **Coup par Coup**  | Moyenne ⚖️ | Sélection des meilleurs joueurs |
+| 🔴 **Coup Fatal**  | Difficile 🔥 | Dernière chance avant la finale |
 
-- Le gagnant du duel final a la chance de tenter de découvrir l'Étoile Mystérieuse.
-- Il doit répondre correctement à au moins 3 questions sur 5 de difficulté "difficile".
+### ⚔️ Duel Final  
 
-## Détail d'une partie
+💥 **Deux joueurs s'affrontent** en répondant alternativement à des questions **difficiles**.  
+🏆 Le joueur avec le **meilleur score** remporte la partie !  
+🤝 En cas d'égalité, le gagnant est désigné **aléatoirement**.  
 
-1. **Initialisation des joueurs**
-   - Le Maître de Midi en titre commence avec un avantage de score.
-   - Quatre nouveaux candidats sont ajoutés.
+### 🌟 L'Étoile Mystérieuse  
 
-2. **Déroulement du jeu**
-   - Le présentateur annonce le début du jeu avec une réplique aléatoire.
-   - Chaque phase de jeu est annoncée par le présentateur.
-   - Les joueurs répondent à des questions, et les scores sont mis à jour.
-   - Après chaque phase, les scores sont affichés, et les joueurs avec le score le plus bas sont éliminés.
+Le **vainqueur du duel** peut tenter de découvrir **l'Étoile Mystérieuse** en répondant correctement à **3 questions sur 5 (difficile)**.  
 
-3. **Finale**
-   - Si plus d'un joueur reste après les phases, un duel final a lieu.
-   - Le gagnant du duel final devient le nouveau Maître de Midi et peut tenter de découvrir l'Étoile Mystérieuse.
+---
 
-4. **Fin du jeu**
-   - Le jeu se termine par l'annonce du nouveau Maître de Midi et de l'Étoile Mystérieuse si elle a été découverte.
+## 🎮 Déroulement d'une partie  
 
-## Exécution
+📢 **Initialisation des joueurs**  
+- 🎖️ Le **Maître de Midi en titre** commence avec un **avantage de score**.  
+- 🎭 Quatre **nouveaux candidats** sont ajoutés.  
 
-Pour jouer au jeu, exécutez le script `jeu.py` :
+🕹️ **Déroulement du jeu**  
+- 🎙️ Un **présentateur dynamique** annonce chaque phase.  
+- 🎯 Les joueurs répondent aux questions, et les **scores sont mis à jour**.  
+- ❌ Les **joueurs les plus faibles** sont éliminés à chaque manche.  
+
+🏅 **Finale & fin du jeu**  
+- 🔥 Le **duel final** décide du **nouveau Maître de Midi**.  
+- 🌟 S’il réussit, il peut tenter de **remporter l'Étoile Mystérieuse** !  
+
+---
+
+## 🚀 Installation & Exécution  
+
+📌 **Pré-requis**  
+- Python 3.x doit être installé sur votre système.  
+
+📥 **Installation**  
+
+```sh
+git clone https://github.com/user/repo.git
+cd repo
+```
+
+▶️ **Lancer le jeu**  
 
 ```sh
 python jeu.py
+```
+
+---
+
+## 🛠️ Contribuer  
+
+Vous avez une idée pour améliorer le jeu ? N'hésitez pas à **ouvrir une issue** ou **proposer une pull request** !  
+
+📧 Contact : [email@example.com](mailto:email@example.com)  
+
+🌟 **Si vous aimez ce projet, laissez une étoile sur GitHub !**  
