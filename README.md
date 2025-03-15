@@ -1,94 +1,62 @@
-# 🎯 Les Douze Coups de Midi  
+# 🎯 Les Douze Coups de Midi
 
-```
-
-      *     *  ()   *    *
-*        * /\         *   
-      *   /i\\    *  * 
-    *     o/\\  *      * 
- *       ///\i\    *   
-     *   /*/o\\  *    *
-   *    /i//\*\      *   
-        /o/*  \i\   *    
-  *    //i//o\\     *  
-      /*////\\i\*        
- *    //o//i\*\\   *   
-   * /i///*/\\\o\    
-  *    *   ||     *  
-
-```
-
-> 🏆 **Un jeu inspiré de l'émission télévisée française. Testez votre culture générale et devenez le Maître de Midi !**  
-
-![GitHub repo size](https://img.shields.io/github/repo-size/user/repo?style=flat-square)  
-![GitHub stars](https://img.shields.io/github/stars/user/repo?style=social)  
-![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)  
+## 📌 Description
+Bienvenue dans *Les Douze Coups de Midi*, une adaptation du célèbre jeu télévisé ! 🏆 Testez votre culture générale et affrontez vos amis à travers plusieurs manches pleines de défis !
 
 ---
+## 🎮 Règles du Jeu
+Le jeu se déroule en **quatre étapes captivantes** :
 
-## 📜 Règles du jeu  
-
-Le jeu est divisé en plusieurs **phases**, où les joueurs doivent répondre à des questions de **culture générale** pour tenter d’atteindre la **finale**.  
-
-| Phase          | Type de questions | Objectif |
-|---------------|------------------|----------|
-| 🟢 **Coup d'Envoi**  | Facile ✅ | Premier tour d’échauffement |
-| 🟡 **Coup par Coup**  | Moyenne ⚖️ | Sélection des meilleurs joueurs |
-| 🔴 **Coup Fatal**  | Difficile 🔥 | Dernière chance avant la finale |
-
-### ⚔️ Duel Final  
-
-💥 **Deux joueurs s'affrontent** en répondant alternativement à des questions **difficiles**.  
-🏆 Le joueur avec le **meilleur score** remporte la partie !  
-🤝 En cas d'égalité, le gagnant est désigné **aléatoirement**.  
-
-### 🌟 L'Étoile Mystérieuse  
-
-Le **vainqueur du duel** peut tenter de découvrir **l'Étoile Mystérieuse** en répondant correctement à **3 questions sur 5 (difficile)**.  
+1️⃣ **Coup d'Envoi** – Un tour d'échauffement avec des questions faciles. ✅  
+2️⃣ **Coup par Coup** – Des questions de difficulté moyenne pour filtrer les meilleurs joueurs. 🔥  
+3️⃣ **Coup Fatal** – Des questions difficiles pour une dernière chance avant la finale. ⚡  
+4️⃣ **Duel Final** – Les deux meilleurs joueurs s'affrontent en répondant tour à tour. 🏁  
 
 ---
+## 🚀 Installation
+📌 **Prérequis** : Assurez-vous d'avoir **Python 3.x** installé sur votre machine.
 
-## 🎮 Déroulement d'une partie  
-
-📢 **Initialisation des joueurs**  
-- 🎖️ Le **Maître de Midi en titre** commence avec un **avantage de score**.  
-- 🎭 Quatre **nouveaux candidats** sont ajoutés.  
-
-🕹️ **Déroulement du jeu**  
-- 🎙️ Un **présentateur dynamique** annonce chaque phase.  
-- 🎯 Les joueurs répondent aux questions, et les **scores sont mis à jour**.  
-- ❌ Les **joueurs les plus faibles** sont éliminés à chaque manche.  
-
-🏅 **Finale & fin du jeu**  
-- 🔥 Le **duel final** décide du **nouveau Maître de Midi**.  
-- 🌟 S’il réussit, il peut tenter de **remporter l'Étoile Mystérieuse** !  
+1️⃣ Clonez ce dépôt en exécutant la commande suivante :
+   ```sh
+   git clone https://github.com/affanidhh/Les-Douze-Coups-de-Midi.git
+   ```
+2️⃣ Accédez au dossier du projet :
+   ```sh
+   cd Les-Douze-Coups-de-Midi
+   ```
+3️⃣ Installez les dépendances nécessaires (si applicables) :
+   ```sh
+   pip install -r requirements.txt
+   ```
 
 ---
-
-## 🚀 Installation & Exécution  
-
-📌 **Pré-requis**  
-- Python 3.x doit être installé sur votre système.  
-
-📥 **Installation**  
-
-```sh
-git clone https://github.com/user/repo.git
-cd repo
-```
-
-▶️ **Lancer le jeu**  
-
+## ▶️ Utilisation
+Lancez le jeu en exécutant :
 ```sh
 python jeu.py
 ```
+📢 Suivez les instructions affichées à l'écran et tentez de devenir le champion ! 🏅
 
 ---
+## 🤝 Contribution
+💡 Vous avez une idée d'amélioration ?  
+1️⃣ **Forkez** ce dépôt.  
+2️⃣ **Créez une branche** pour vos modifications :
+   ```sh
+   git checkout -b ma-nouvelle-fonctionnalite
+   ```
+3️⃣ **Apportez vos changements** et validez-les :
+   ```sh
+   git commit -m "Ajout d'une nouvelle fonctionnalité"
+   ```
+4️⃣ **Poussez** vos changements :
+   ```sh
+   git push origin ma-nouvelle-fonctionnalite
+   ```
+5️⃣ **Ouvrez une *pull request*** sur GitHub.
 
-## 🛠️ Contribuer  
+---
+## 📜 Licence
+📝 Ce projet est sous licence **MIT**. Consultez le fichier `LICENSE` pour plus de détails.
 
-Vous avez une idée pour améliorer le jeu ? N'hésitez pas à **ouvrir une issue** ou **proposer une pull request** !  
-
-📧 Contact : [email@example.com](mailto:email@example.com)  
-
-🌟 **Si vous aimez ce projet, laissez une étoile sur GitHub !**  
+🚀 **Amusez-vous bien et que le meilleur gagne !** 🎉
